@@ -108,3 +108,110 @@ header {
   opacity: 1;
   transform: scale(1);
 }
+.nav-item {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+.nav-link {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  margin-right: -2px;
+  transition: color 0.5s;
+}
+.nav-link:hover {
+  color: gold;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url("https://wallpaperaccess.com/full/810358.jpg") center
+    no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.sub-headline {
+  font-size: 0.5rem;
+  color: white;
+  font-weight: 600;
+  line-height: 0.4;
+  letter-spacing: 2px;
+}
+.first-letter {
+  text-transform: uppercase;
+  font-size: 10.3rem;
+}
+
+.headline {
+  color: white;
+  font-size: 3.7rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 100%;
+  max-width: 8.4rem;
+  height: 0.25rem;
+  background-color: gold;
+  position: relative;
+}
+.line-right::before,
+.line-left::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 0.6rem solid transparent;
+}
+.line-right::before {
+  border-right-color: #fff;
+  right: 0;
+}
+.line-left::before {
+  border-left-color: #fff;
+  left: 0;
+}
+.asterisk {
+  font-size: 1.2rem;
+  margin: 0 1.6rem;
+}
+.headline-description h5 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  letter-spacing: 3px;
+  margin-right: -3px;
+}
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 2px;
+}
+.cta-btn {
+  font-size: 1.1rem;
+  background-color: #fff;
+  padding: 0.9rem 1.8rem;
+  color: black;
+  font-weight: 600;
+  border-radius: 0.6rem;
+  transition: background-color 0.3s;
+}
+.cta-btn:hover,
+.cta-btn:active {
+  color: gold;
+  background-color: #121212;
+}
