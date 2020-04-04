@@ -94,3 +94,17 @@ header {
   transform: scale(0);
   transition: opacity 0.5s;
 }
+
+.open .fa-times {
+  display: block;
+}
+.open .fa-bars {
+  display: none;
+}
+.open .nav-list {
+  transform: translateX(0);
+}
+.open .nav::before {
+  opacity: 1;
+  transform: scale(1);
+}
